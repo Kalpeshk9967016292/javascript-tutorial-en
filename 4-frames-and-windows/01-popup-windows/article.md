@@ -17,7 +17,7 @@ In the past evil sites abused popups a lot. A bad page could open tons of popup 
 
 **Most browsers block popups if they are called outside of user-triggered event handlers like `onclick`.**
 
-If you think about it, that's a bit tricky. If the code is directly in an `onclick` handler, then that's easy. But what is the popup opens in `setTimeout`?
+If you think about it, that's a bit tricky. If the code is directly in an `onclick` handler, then that's easy. But what if the popup opens in `setTimeout`?
 
 Try this code:
 
